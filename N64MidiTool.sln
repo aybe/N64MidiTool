@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N64MidiLibrary", "N64MidiLibrary\N64MidiLibrary.vcxproj", "{7DC83CA9-6168-4ED5-974B-B84B17443876}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N64MidiTool", "N64MidiTool\N64MidiTool.vcxproj", "{7A50F022-CC4A-4296-9619-FD8A70EFB456}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N64MidiToolReader", "N64MidiToolReader\N64MidiToolReader.vcxproj", "{A890D975-802E-465C-BB83-C087D7FE8DFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC83CA9-6168-4ED5-974B-B84B17443876}.Debug|x86.ActiveCfg = Debug|Win32
+		{7DC83CA9-6168-4ED5-974B-B84B17443876}.Debug|x86.Build.0 = Debug|Win32
+		{7DC83CA9-6168-4ED5-974B-B84B17443876}.Release|x86.ActiveCfg = Release|Win32
+		{7DC83CA9-6168-4ED5-974B-B84B17443876}.Release|x86.Build.0 = Release|Win32
+		{7A50F022-CC4A-4296-9619-FD8A70EFB456}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A50F022-CC4A-4296-9619-FD8A70EFB456}.Debug|x86.Build.0 = Debug|Win32
+		{7A50F022-CC4A-4296-9619-FD8A70EFB456}.Release|x86.ActiveCfg = Release|Win32
+		{7A50F022-CC4A-4296-9619-FD8A70EFB456}.Release|x86.Build.0 = Release|Win32
+		{A890D975-802E-465C-BB83-C087D7FE8DFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{A890D975-802E-465C-BB83-C087D7FE8DFE}.Debug|x86.Build.0 = Debug|Win32
+		{A890D975-802E-465C-BB83-C087D7FE8DFE}.Release|x86.ActiveCfg = Release|Win32
+		{A890D975-802E-465C-BB83-C087D7FE8DFE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {101A62E5-3DE2-4345-8668-C9103B8A3AA4}
+	EndGlobalSection
+EndGlobal
