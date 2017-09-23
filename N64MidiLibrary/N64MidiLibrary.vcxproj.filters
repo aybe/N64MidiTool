@@ -18,6 +18,9 @@
     <ClCompile Include="ASMICDecoder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BlitzDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="FLA2Decoder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -40,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MidwayDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="n643docompression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NaganoDecoder.cpp">
@@ -78,9 +84,15 @@
     <ClCompile Include="yay0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="yaz0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ASMICDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlitzDecoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FLA2Decoder.h">
@@ -108,6 +120,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MidwayDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="n643docompression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NaganoDecoder.h">
@@ -150,6 +165,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="yay0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yaz0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

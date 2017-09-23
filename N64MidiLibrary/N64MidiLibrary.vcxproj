@@ -49,8 +49,6 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
-    <IncludePath>$(SolutionDir)..\N64UniversalCompressor;$(IncludePath)</IncludePath>
-    <SourcePath>$(SolutionDir)..\N64UniversalCompressor;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
@@ -58,8 +56,6 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
-    <IncludePath>$(SolutionDir)..\N64UniversalCompressor;$(IncludePath)</IncludePath>
-    <SourcePath>$(SolutionDir)..\N64UniversalCompressor;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
@@ -105,6 +101,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ASMICDecoder.cpp" />
+    <ClCompile Include="BlitzDecoder.cpp" />
     <ClCompile Include="FLA2Decoder.cpp" />
     <ClCompile Include="flzh_rn.cpp" />
     <ClCompile Include="GECompression.cpp" />
@@ -113,6 +110,7 @@
     <ClCompile Include="MarioTennisDecoder.cpp" />
     <ClCompile Include="MidiParse.cpp" />
     <ClCompile Include="MidwayDecoder.cpp" />
+    <ClCompile Include="n643docompression.cpp" />
     <ClCompile Include="NaganoDecoder.cpp" />
     <ClCompile Include="NintendoEncoder.cpp" />
     <ClCompile Include="rnc_deco.cpp" />
@@ -128,9 +126,11 @@
     <ClCompile Include="TigDecoder.cpp" />
     <ClCompile Include="VigilanteDecoder.cpp" />
     <ClCompile Include="yay0.cpp" />
+    <ClCompile Include="yaz0.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ASMICDecoder.h" />
+    <ClInclude Include="BlitzDecoder.h" />
     <ClInclude Include="FLA2Decoder.h" />
     <ClInclude Include="flzh_rn.h" />
     <ClInclude Include="GECompression.h" />
@@ -140,6 +140,7 @@
     <ClInclude Include="MidiExports.h" />
     <ClInclude Include="MidiParse.h" />
     <ClInclude Include="MidwayDecoder.h" />
+    <ClInclude Include="n643docompression.h" />
     <ClInclude Include="NaganoDecoder.h" />
     <ClInclude Include="NintendoEncoder.h" />
     <ClInclude Include="Resource.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="TigDecoder.h" />
     <ClInclude Include="VigilanteDecoder.h" />
     <ClInclude Include="yay0.h" />
+    <ClInclude Include="yaz0.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="N64MidiLibrary.rc" />
