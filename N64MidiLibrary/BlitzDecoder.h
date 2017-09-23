@@ -1,8 +1,6 @@
 #pragma once
 
-#include "MidiExports.h"
-
-class MIDI_API CBlitzDecoder
+class CBlitzDecoder
 {
 public:
 	CBlitzDecoder(void);
